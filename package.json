@@ -8,5 +8,10 @@
   },
   "author": "Matheus Eller Fagundes",
   "license": "MIT",
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/meow": "^3.6.2"
+  },
+  "dependencies": {
+    "meow": "^4.0.0"
+  }
 }
