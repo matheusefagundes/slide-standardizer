@@ -1,0 +1,12 @@
+{
+  "name": "slide-standardizer",
+  "version": "1.0.0",
+  "description": "A tool to standardize slide presentations styles.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matheus Eller Fagundes",
+  "license": "MIT",
+  "devDependencies": {}
+}
