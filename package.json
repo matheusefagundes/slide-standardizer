@@ -9,10 +9,15 @@
   "author": "Matheus Eller Fagundes",
   "license": "MIT",
   "devDependencies": {
+    "@types/es6-promise": "0.0.33",
     "@types/meow": "^3.6.2",
-    "@types/node": "^8.5.1"
+    "@types/node": "^8.5.1",
+    "@types/progress": "^2.0.1"
   },
   "dependencies": {
-    "meow": "^4.0.0"
+    "meow": "^4.0.0",
+    "pptxgenjs": "^1.10.0",
+    "progress": "^2.0.0",
+    "yauzl": "^2.9.1"
   }
 }
