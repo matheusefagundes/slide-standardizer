@@ -2,18 +2,25 @@
 Standardizes a set of Microsoft PowerPoint slide presentations so they all get with the same style applied.
 
 ## Instalation
-*TODO*
+For CLI use, is recommended to install the package globally:
+```shell
+sudo npm install -g slide-standardizer
+```
+If you wanna use Slide Standardizer as a library for your Node project, install it with:
+```shell
+npm install --save slide-standardizer
+```
 
-## Usage
+## CLI Usage
 To standardize the presentations, you'll need to setup a style first. This is done through a JSON file (usually named `styles.json`). Think about this file as a sort of CSS for PowerPoint slides. Let's take a look on the options you can use within this file.
 
 ```json
 {
-  "backgroundColor": "#ff3409",
-  "backgroundImage": "path/to/image.png", //Relative to execution dir
-  "fontSize": 16, //Pixels
-  "font": "Roboto", //Must be installed in your system
-  "fontColor": "#0845e3"
+  "backgroundColor": "FF3409",
+  "backgroundImage": "absolute/path/to/image.png",
+  "fontSize": 16,
+  "font": "Roboto",
+  "fontColor": "0845E3"
 }
 ```
 

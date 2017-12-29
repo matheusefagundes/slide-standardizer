@@ -2,11 +2,13 @@
   "name": "slide-standardizer",
   "version": "1.0.0",
   "description": "A tool to standardize slide presentations styles.",
-  "main": "index.js",
+  "repository": "github:matheusefagundes/slide-standardizer",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Matheus Eller Fagundes",
+  "author": "Matheus Eller Fagundes <matheusefagundes@gmail.com> (https://www.linkedin.com/in/matheus-fagundes-46389a10a/)",
   "license": "MIT",
   "devDependencies": {
     "@types/es6-promise": "0.0.33",
