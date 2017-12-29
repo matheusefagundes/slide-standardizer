@@ -1,10 +1,11 @@
 {
   "name": "slide-standardizer",
-  "version": "1.0.0",
+  "version": "1.0.14",
   "description": "A tool to standardize slide presentations styles.",
   "repository": "github:matheusefagundes/slide-standardizer",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "bin": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

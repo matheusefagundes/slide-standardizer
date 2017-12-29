@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import * as meow from 'meow';
 import { Result, Options } from 'meow';
 import { MainController } from "./controller/MainController";
